@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Neuton', serif;
+  background-color: #ffffea;
+}
+
+a:normal {
+    color: 'RoyalBlue';
+}
+
+a:visited {
+    color: #2F4F4F;
+}
+
+/* Style the header */
+.header {
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  font-family: 'UnifrakturMaguntia', cursive;
+  border-style: solid;
+  text-decoration: underline overline #4169E1;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+.footer {
+  padding: 10px;
+  text-align: center;
+  background-image: url("/w3images/photographer.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
