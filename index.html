@@ -71,7 +71,9 @@ differently.</p>
 <h2>Multimethods, Open and Closed</h2>
 <p>Finally, 𝖋𝖚𝖌𝖚𝖊 provides <a href="https://wiki.c2.com/?MultiMethods">multimethods</a>—powerful ways to define
 typed behaviour for all the arguments in a function.</p>
-<pre><code>repl:17:&gt; (def tweety (:new Bird :name &quot;Tweety&quot;))
+<pre><code>repl:15:&gt; (defmulti interact [Bird Bird] [self other] (string (self :name) &quot; puts on a mating display&quot;))
+repl:16:&gt; (defmulti interact [Bird Animal] [self other] (string (self :name) &quot; flies away&quot;))
+repl:17:&gt; (def tweety (:new Bird :name &quot;Tweety&quot;))
 repl:18:&gt; (interact tweety (:new Bird))
 &quot;Tweety puts on a mating display&quot;
 repl:19:&gt; (interact tweety (:new Animal))
