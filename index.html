@@ -15,13 +15,14 @@
 
 
 <div class="header">
-  <h1>Fugue</h1>
+  <h1>&#128604;&nbsp;<span class="double-line">Fugue</span>&nbsp;&#128606;</h1>
 </div>
 
 <div class="row">
   <div class="column">&nbsp;</div>
   <div class="column">
-    <h2>Objects for Janet</h2>
+    <div class="ornament">&#128593;&nbsp;&nbsp;&nbsp;&#128599;</div>
+<h2>Objects for Janet</h2>
 <p><a href="https://janet-lang.org/">Janet</a> is an easy-to-use and powerful programming language in the
 Lisp tradition. It provides a simple, effective core of functionality
 to build object-oriented systems on top of; Janet tables can have
@@ -31,6 +32,7 @@ functions that are called as methods.</p>
 provide a fuller object system. It’s inspired most directly by the
 <a href="https://lispcookbook.github.io/cl-cookbook/clos.html">Common Lisp Object System</a>, but it’s structured differently and
 exposes different features.</p>
+<div class="ornament">&#128614;&nbsp;&nbsp;&nbsp;&#128612;</div>
 <h2>Programming with Prototypes</h2>
 <p>𝖋𝖚𝖌𝖚𝖊 provides a useful and comfortable way of declaring prototypes
 and prototype hierarchies. For instance: let’s build the traditional
@@ -47,6 +49,7 @@ repl:7:&gt; (class warbler)
 <p>We create a one prototype <em>Animal</em>, then a prototype <em>Bird</em> that
 inherits from <em>Animal</em>, and instantiate a single <em>Bird</em>. That instance
 has access to the fields on its parent and grandparent.</p>
+<div class="ornament">&#128614;&nbsp;&nbsp;&nbsp;&#128612;</div>
 <h2>Easy Methods</h2>
 <p>𝖋𝖚𝖌𝖚𝖊 provides <a href="https://www.cs.cmu.edu/Groups/AI/html/cltl/clm/node278.html">generic functions</a>, which allow the
 programmer to easily specialize the behaviour of functions for
@@ -64,6 +67,7 @@ repl:13:&gt; (move :something-else)
 </code></pre>
 <p>The same function, when called on different data types, can behave
 differently.</p>
+<div class="ornament">&#128614;&nbsp;&nbsp;&nbsp;&#128612;</div>
 <h2>Multimethods, Open and Closed</h2>
 <p>Finally, 𝖋𝖚𝖌𝖚𝖊 provides <a href="https://wiki.c2.com/?MultiMethods">multimethods</a>—powerful ways to define
 typed behaviour for all the arguments in a function.</p>
@@ -77,6 +81,7 @@ repl:19:&gt; (interact tweety (:new Animal))
 <p>Multimethods can be defined and fixed in a single module, or can be
 declared <em>open</em>, so that other later execution environments can extend
 their behaviour with new cases.</p>
+<div class="ornament">&#128614;&nbsp;&nbsp;&nbsp;&#128612;</div>
 <h1>How to get 𝖋𝖚𝖌𝖚𝖊</h1>
 <p>Specify a dependency in your <code>project.janet</code>:</p>
 <pre><code>  :dependencies [&quot;https://github.com/pyrmont/testament&quot;
@@ -86,9 +91,11 @@ their behaviour with new cases.</p>
 <pre><code>  :dependencies [&quot;https://github.com/pyrmont/testament&quot;
                  &quot;https://git.sr.ht/~subsetpark/fugue&quot;]
 </code></pre>
+<div class="ornament">&#128614;&nbsp;&nbsp;&nbsp;&#128612;</div>
 <h1>More Examples</h1>
 <p>You can read an example Regex implementation in 𝖋𝖚𝖌𝖚𝖊 here: <a href="https://git.sr.ht/~subsetpark/the-brzozowski-variations">The
 Brzozowski Variations</a></p>
+<div class="ornament">&#128614;&nbsp;&nbsp;&nbsp;&#128612;</div>
 <h1>Source</h1>
 <p>𝖋𝖚𝖌𝖚𝖊 is hosted on <a href="https://git.sr.ht/~subsetpark/fugue">Sourcehut</a>.</p>
 

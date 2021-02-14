@@ -7,6 +7,10 @@ body {
   background-color: #ffffea;
 }
 
+.ornament {
+    text-align: center;
+}
+
 a:normal {
     color: 'RoyalBlue';
 }
@@ -21,7 +25,10 @@ a:visited {
   text-align: center;
   font-size: 35px;
   font-family: 'UnifrakturMaguntia', cursive;
-  border-style: solid;
+  border-style: dotted;
+}
+
+.double-line {
   text-decoration: underline overline #4169E1;
 }
 
