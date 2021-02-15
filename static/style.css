@@ -32,10 +32,15 @@ a:visited {
   text-decoration: underline overline #4169E1;
 }
 
-/* Create three equal columns that floats next to each other */
 .column {
   float: left;
-  width: 33.33%;
+  width: 45%;
+  padding: 10px;
+}
+
+.narrow {
+  float: left;
+  width: 27.5%;
   padding: 10px;
 }
 
